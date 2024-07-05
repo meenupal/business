@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.image{
+    background-image:url(darksky.jpg) ;
+    background-size: cover;
+    background-position:center ;
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.liner{
+    align-self: center;
+    text-align: center;
+    color:white;
+    height:110px;
+    width:280px;
+    background:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) ;
+    padding:25px; 
+    
+}
+
+.navbar{
+    color:white;
+    height:10vh;
+    width:100%;
+    background-color:#0062f5 ;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+.nav{
+    padding-left:10px ;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.items{
+    display: flex;
+    gap:50px;
+    font-size:19px ;
+    color:white;
+    padding-right:15px ;
+}
+.di1{
+    margin-top:25px ;
+    height:20vh;
+    width:100%;
+    text-align: center;
+    gap:30px;
+}
+.color1{
+    color:blue;
+    padding-bottom:16px ;
+    font-size: 22px;
+}
+
+.di2{
+    height:19vh;
+    width:100%;
+    border:1px solid transparent;
+    box-shadow:5px 8px 20px rgba(0,0,0,0.5) ;
+    border-radius:10px ;
+    text-align: center;
+    gap:30px;
+}
+.color2{
+    color:green;
+    padding-bottom:16px ;
+    padding-top:10px ;
+    font-size:22px ;
+}
+.di3{
+    height:17vh;
+    width:100%;
+    text-align: center;
+    gap:30px;
+}
+.color3{
+    color:red;
+    padding-bottom:16px;
+    font-size: 22px;
+    margin-top:15px ;
+}
+footer{
+    height:10vh;
+    width:100%;
+    border:1px solid white;
+    text-align: center;
+    gap:30px;
+    color:white ;
+    padding-top:10px ;
+    background-color: #0062f5;
+
+}
+    
+
